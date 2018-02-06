@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 1.0em;
+}
+
+body {
+    background-color: #ccc;
+    color: #666;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.friend {
+    background-color: #fff;
+    padding: 3em;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #666;
+    font-size: 1.5em;
+}
+.friend h3 {
+    color: blue;
+    text-transform: uppercase;    
+    font-size: 3em;
+    padding: 1em;
+}
