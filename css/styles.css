@@ -1,33 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-size: 1.0em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.startDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
 }
 
 body {
-    background-color: #ccc;
-    color: #666;
-    text-align: center;
+    background-color: #636e72;
 }
 
-.flex-container {
+.button {
+    padding: 1em 2.5em;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    background-color: #00b894;
+    color: #2d3436;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background-color: #55efc4;
+}
+
+.lyrics {
+    color: #666;
+    text-align: left;
+    font-size: .75em;
+    line-height: 1.3;
+    padding-top: 1em;
+}
+
+.lyrics-div {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    height: 100vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #dfe6e9;
+    margin: 0 auto;
 }
-.friend {
-    background-color: #fff;
-    padding: 3em;
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px #666;
-    font-size: 1.5em;
+
+.friend-name {
+    font-size: 2em;
+    color: #636e72;
 }
-.friend h3 {
-    color: blue;
-    text-transform: uppercase;    
-    font-size: 3em;
-    padding: 1em;
+
+.hr {
+    width: 50%;
+    background-color: #00b894;
+    border: none;
+    height: 5px;
+    margin: 10px 0 .5em;
 }
+
+.friends-div {
+    margin: 1em;
+}
+
